@@ -1,0 +1,10 @@
+{% extends "pizza_app/base.html" %}
+{% block page_header %}
+<div class="jumbotron">
+    <h1 class="display-3">Pizzeria Project</h1>
+    <p class="lead">Create a website that shows the pizza options as well as the toppings. Also allow users to comment.</p>
+    
+    <a class="btn btn-lg btn-primary" href="{% url 'pizza_app:pizzas' %}"
+        role="button">Pizzas</a> 
+</div>
+{% endblock page_header %}
